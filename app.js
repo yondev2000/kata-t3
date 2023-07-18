@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const jwt = require("jsonwebtoken");
 
-const port = 3000; // Choose a port number
+const port = 3000; // port number
 const secretKey =
   "eyJhbGciOiJIUzUxMiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY4OTY2NzA5OCwiaWF0IjoxNjg5NjY3MDk4fQ.bw3kgz10MlOyS6WClPLUIHmX0RebDJTw5sfFCpFFrOk2HnFxwj1IyIMYw7hrh_Jq1OmuuRpi2z0mHZm-4uQQgg";
 
